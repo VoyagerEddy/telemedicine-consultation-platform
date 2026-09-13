@@ -1,0 +1,26 @@
+# IDE settings
+.idea/
+*.iml
+
+# Java build output
+**/target/
+*.class
+*.jar
+
+# Frontend dependencies and output
+**/node_modules/
+**/dist/
+**/.cache/
+
+# Logs and local configuration
+*.log
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Duplicate files created during local copying
+*(1).*
